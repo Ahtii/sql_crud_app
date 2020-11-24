@@ -11,11 +11,11 @@ Step 1: Open `database.py` file and populate the DB credentials with your databa
 
 Step 2: Activate your virtual environment and install all the required dependecies with:
 
-        `pip install -r requirements.txt`
+        pip install -r requirements.txt
   
 Step 2: Go inside the project directory and run the server with:
         
-        `uvicorn main:app --reload`
+        uvicorn main:app --reload
         
 Step 3: Go to localhost:8000/docs to do crud operations with mysql.
 
